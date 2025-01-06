@@ -1,0 +1,23 @@
+
+
+.section-1 {
+    background-color: rgb(44, 62, 80);
+    padding: 6rem 0 6rem 0;
+}
+
+.social-icon i {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section-2 { background-color: rgb(26, 37, 47);}

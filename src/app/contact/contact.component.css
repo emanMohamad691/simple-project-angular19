@@ -1,0 +1,52 @@
+section {
+
+    margin-top: 95px;
+}
+
+.left-line,
+.right-line {
+    width: 80px;
+    border: 2px solid rgb(44, 62, 80);
+}
+
+
+.header h1,
+.icon i {
+    color: rgb(44, 62, 80)
+}
+
+.form-control {
+    border-color: transparent;
+    border-bottom: 1px solid rgb(222, 226, 230);
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+
+
+.btn-color {
+    background-color: rgb(26, 188, 156);
+}
+
+label {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transition: 0.3s top;
+    -webkit-transition: 0.3s top;
+    -moz-transition: 0.3s top;
+    -ms-transition: 0.3s top;
+    -o-transition: 0.3s top;
+}
+
+.display-label {
+    color: rgb(26, 188, 156);
+    position: absolute;
+    opacity: 1;
+    top: -50%;
+    left: 0;
+
+}

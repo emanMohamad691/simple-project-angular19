@@ -1,0 +1,36 @@
+<section class="min-vh-100 ">
+
+    <div class="header pt-5 d-flex flex-column align-items-center">
+        <h1 class="text-uppercase fw-bold">portfolio component</h1>
+        <div class="icon d-flex justify-content-center align-items-center mb-5">
+            <div class="left-line me-3"></div>
+            <i class="fa-solid fa-star    "></i>
+            <div class="right-line ms-3"></div>
+           </div>
+    </div>
+    <div class="container">
+       
+        <div class="row gy-3 mb-5">
+            @for(image of images ;track $index){
+                <div class="col-lg-4">
+                    <div  class="portfolio-content position-relative" >
+                        <div id="portfolioContentOverlay" class="overlay rounded-3" (click)="displayFullOverlay($event)" (click)="displayImage(image)" >
+                            <i id="plusIcon" class="fa-solid fa-plus"></i>
+                        </div>
+                        <img [src]="image" class="w-100 rounded-3 overflow-hidden " alt="">
+                    </div>
+                </div>
+            }
+            
+        </div>
+    </div>
+</section>
+
+@if(isDisplay){
+    <div id="overlayFullPage" class="overlay-full-page d-flex justify-content-center align-items-center  " (click)="displayFullOverlay($event)">
+      
+            <img [src]="imagesrc"  alt="">
+       
+    </div>
+}
+

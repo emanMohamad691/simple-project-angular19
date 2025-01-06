@@ -1,0 +1,21 @@
+section {
+    background-color: rgb(26, 188, 156);
+    margin-top: 95px;
+}
+
+.home-content {
+    margin-top: -5rem;
+}
+
+.home-content img {
+    width: 60%;
+}
+
+
+
+
+@media (min-width : 992px){
+    .home-content img {
+        width: 50%;
+    }
+}

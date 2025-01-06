@@ -1,0 +1,19 @@
+section {
+    background-color: rgb(26, 188, 156);
+   margin-top: 95px;
+}
+
+.about-content {
+    margin-top:-5rem;
+}
+
+app-header-style {
+    width: 50%;
+}
+
+@media(min-width : 992px){
+    app-header-style {
+        width: 25%;
+    }
+    
+}
